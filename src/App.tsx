@@ -11,6 +11,7 @@ import {
   EnhancedGeographicalIntelligence
 } from './components/enhanced/EnhancedDashboard'
 import { DatabankPage } from './components/databank'
+import { TailwindSafeguard } from './TailwindSafeguard'
 
 function App() {
   const [activeSection, setActiveSection] = useState('transaction-trends')
@@ -174,6 +175,9 @@ function App() {
           )}
         </div>
       </div>
+      
+      {/* Hidden component to ensure TBWA classes are included in production build */}
+      <TailwindSafeguard />
     </div>
   )
 }
