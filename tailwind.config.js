@@ -4,6 +4,18 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    // TBWA Brand Colors - ensure these are always included in production
+    'bg-tbwa-black', 'bg-tbwa-white', 'bg-tbwa-yellow', 'bg-tbwa-gray', 'bg-tbwa-lightGray',
+    'text-tbwa-black', 'text-tbwa-white', 'text-tbwa-yellow', 'text-tbwa-gray', 'text-tbwa-lightGray',
+    'border-tbwa-black', 'border-tbwa-white', 'border-tbwa-yellow', 'border-tbwa-gray', 'border-tbwa-lightGray',
+    'hover:bg-tbwa-black', 'hover:bg-tbwa-white', 'hover:bg-tbwa-yellow', 'hover:bg-tbwa-gray',
+    'hover:text-tbwa-black', 'hover:text-tbwa-white', 'hover:text-tbwa-yellow', 'hover:text-tbwa-gray',
+    // Background opacity variants
+    'bg-opacity-10', 'bg-opacity-20', 'bg-opacity-30', 'text-opacity-70', 'text-opacity-80', 'border-opacity-30',
+    // Scout brand colors
+    'bg-scout-primary', 'bg-scout-secondary', 'text-scout-primary', 'text-scout-secondary',
+  ],
   theme: {
     extend: {
       colors: {
