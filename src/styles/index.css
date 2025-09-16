@@ -2,6 +2,163 @@
 @tailwind components;
 @tailwind utilities;
 
+/* TBWA Custom Colors - Explicit CSS definitions to ensure they're included in build */
+
+/* Background Colors */
+.bg-tbwa-black {
+  background-color: #000000;
+}
+
+.bg-tbwa-white {
+  background-color: #FFFFFF;
+}
+
+.bg-tbwa-yellow {
+  background-color: #FFD700;
+}
+
+.bg-tbwa-gray {
+  background-color: #4A4A4A;
+}
+
+.bg-tbwa-lightGray {
+  background-color: #F5F5F5;
+}
+
+/* Text Colors */
+.text-tbwa-black {
+  color: #000000;
+}
+
+.text-tbwa-white {
+  color: #FFFFFF;
+}
+
+.text-tbwa-yellow {
+  color: #FFD700;
+}
+
+.text-tbwa-gray {
+  color: #4A4A4A;
+}
+
+.text-tbwa-lightGray {
+  color: #F5F5F5;
+}
+
+/* Border Colors */
+.border-tbwa-black {
+  border-color: #000000;
+}
+
+.border-tbwa-white {
+  border-color: #FFFFFF;
+}
+
+.border-tbwa-yellow {
+  border-color: #FFD700;
+}
+
+.border-tbwa-gray {
+  border-color: #4A4A4A;
+}
+
+.border-tbwa-lightGray {
+  border-color: #F5F5F5;
+}
+
+/* Hover States - Background */
+.hover\:bg-tbwa-black:hover {
+  background-color: #000000;
+}
+
+.hover\:bg-tbwa-white:hover {
+  background-color: #FFFFFF;
+}
+
+.hover\:bg-tbwa-yellow:hover {
+  background-color: #FFD700;
+}
+
+.hover\:bg-tbwa-gray:hover {
+  background-color: #4A4A4A;
+}
+
+/* Hover States - Text */
+.hover\:text-tbwa-black:hover {
+  color: #000000;
+}
+
+.hover\:text-tbwa-white:hover {
+  color: #FFFFFF;
+}
+
+.hover\:text-tbwa-yellow:hover {
+  color: #FFD700;
+}
+
+.hover\:text-tbwa-gray:hover {
+  color: #4A4A4A;
+}
+
+/* Scout Colors */
+.bg-scout-primary {
+  background-color: #000000;
+}
+
+.bg-scout-secondary {
+  background-color: #FFD700;
+}
+
+.text-scout-primary {
+  color: #000000;
+}
+
+.text-scout-secondary {
+  color: #FFD700;
+}
+
+.bg-scout-light {
+  background-color: #F5F5F5;
+}
+
+.bg-scout-card {
+  background-color: #FFFFFF;
+}
+
+.border-scout-border {
+  border-color: #F5F5F5;
+}
+
+.text-scout-text {
+  color: #000000;
+}
+
+/* Opacity variants */
+.bg-opacity-10 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bg-opacity-20 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.bg-opacity-30 {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.text-opacity-70 {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.text-opacity-80 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.border-opacity-30 {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
 @layer base {
   :root {
     --scout-primary: 30 64 175;
